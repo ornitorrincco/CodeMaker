@@ -16,7 +16,6 @@ def configLoader():
         config = json.load(jsonFile)
         jsonFile.close()
         return config
-    # return 0
     except:
         print('Some Error Happen while configSeed.json was Loaded')
 
@@ -28,5 +27,10 @@ def newLine(file):
 
 
 if __name__ == "__main__":
-    configLoader()
-    
+    config = configLoader()
+    if config['typeProject'] == 'React':
+        pass
+    elif config['typeProject'] == 'React-Native':
+        pass
+    elif config['typeProject'] == 'Python':
+        pass
