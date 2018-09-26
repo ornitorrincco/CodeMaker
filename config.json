@@ -1,0 +1,12 @@
+{
+  "typeProject": "Python",
+  "name": "AppTest",
+  "dependencies": {
+    "sys": "",
+    "telnetlib": "value",
+    "json": "",
+    "requests": "",
+    "time": ""
+  },
+  "libraries": ["telnetlibrary"]
+}
